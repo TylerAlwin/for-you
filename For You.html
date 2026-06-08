@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You 🤍</title>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="Song.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="night">
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+    </div>
+
+    <div class="container">
+        <div class="envelope-wrapper" id="envelope" onclick="openEnvelope()"></div>
+        <div class="hint" id="hintText">TAP TO OPEN 💌</div>
+    </div>
+
+    <div class="movie-screen" id="movieScreen">
+        <h1 id="letterTitle">To My Love ✨</h1>
+        <div class="letter-content" id="typewriter"></div>
+        
+        <div id="gifContainer" style="display:none; margin-top: 20px; text-align: center;">
+            <img src="crush-on-you.gif" alt="Cute Love GIF" style="width: 120px; border-radius: 8px;">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
